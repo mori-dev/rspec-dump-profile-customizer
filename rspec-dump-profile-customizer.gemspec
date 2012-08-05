@@ -13,15 +13,9 @@ Gem::Specification.new do |s|
     RSpecDumpProfileCustomizer provide report about worst N slow test and/or slow test over M seconds.
     You can set "N" and "M" in rails configuration file, application.rb.
   EOS
-  s.files = [
-    "Gemfile",
-    "README.md",
-    "Rakefile",
-    "License.txt",
-    "rspec-dump-profile-customizer.gemspec",
-    "lib/rspec-dump-profile-customizer.rb",
-    "lib/rspec-dump-profile-customizer/version.rb",
-  ]
+
+  s.files         = `git ls-files`.split("\n")
+
   s.require_paths = ["lib"]
   s.add_dependency "railties", ">= 3.0.0"
   s.add_dependency "rspec", ">= 2.0.0"
