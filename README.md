@@ -4,9 +4,13 @@ RSpecDumpProfileCustomizer provides report about worst N slow test and/or slow t
 
 ## Installation
 
-Gemfile
+Add 'rspec-dump-profile-customizer' gem to your existing app’s Gemfile:
 
     gem 'rspec-dump-profile-customizer'
+
+Bundle it:
+
+    % bundle
 
 ## Usage
 
@@ -31,7 +35,7 @@ Then, run your specs like this from now on:
 
 
 
-![Sample Image](https://github.com/mori-dev/rspec-dump-profile-customizer/raw/master/rspec-dump-profile-customizer-sample.png)
+![Sample Image](https://github.com/mori-dev/rspec-dump-profile-customizer/raw/master/doc/img/rspec-dump-profile-customizer-sample.png)
 
 
 ## Prerequisites
@@ -40,7 +44,7 @@ Then, run your specs like this from now on:
 
 ## Contributing
 
-Fork, fix, then send me a pull request.
+Send me your pull requests.
 
 ## Copyright
 
