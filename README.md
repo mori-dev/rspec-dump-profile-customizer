@@ -16,7 +16,7 @@ Bundle it:
 
 Set up rspec-dump-profile-customizer is easy. Just put it in your Gemfile and add your application.rb settings.
 
-application.rb
+config/environments/test.rb
 
     config.rspec_dump_profile.number  = 15
     config.rspec_dump_profile.second  = 3.5
